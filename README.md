@@ -1,7 +1,9 @@
 # IS219-Project-1
 Data Visualization Project: Telling Stories Through Code
-# Topic: Technology - UFO Interactive Map
-# Essential Question: Where and when have UFO sightings been most frequently reported in the last 50 years?
+# Topic: 
+    Technology - UFO Interactive Map
+# Essential Question: 
+    Where and when have UFO sightings been most frequently reported in the last 50 years?
 ### Description
     UFO sightings Visualization that displays real time and historical sightings on an interactive map 
 ### Data Sources
