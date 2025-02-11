@@ -48,6 +48,7 @@ const App = () => {
       );
     });
 
+    console.log("Filtered Sightings:", filtered); // Added this to debbug
     setFilteredSightings(filtered);
   }, [startDate, endDate, locationFilter, shapeFilter, sightings]);
 
