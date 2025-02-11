@@ -14,8 +14,8 @@
     "web-vitals": "^4.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --disable-source-maps start",
+    "build": "react-scripts --disable-source-maps build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
