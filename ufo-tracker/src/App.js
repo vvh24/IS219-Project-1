@@ -26,7 +26,7 @@ const App = () => {
         const filteredData = data.filter(
           (sighting) => sighting.latitude && sighting.longitude
         );
-        console.log("Example Sighting:", filteredData[0]); // Debugging log
+        console.log("Example Sighting:", filteredData.slice(0, 5)); // Debugging log
         setSightings(filteredData);
         setFilteredSightings(filteredData);
       });
