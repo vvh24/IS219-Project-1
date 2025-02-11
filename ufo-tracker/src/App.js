@@ -20,7 +20,7 @@ const App = () => {
   const [shapeFilter, setShapeFilter] = useState("");
 
   useEffect(() => {
-    fetch("/data/ufo_sightings.json")
+    fetch(process.env.PUBLIC_URL + "/data/ufo_sightings.json")
       .then((response) => response.json())
       .then((data) => {
         const filteredData = data.filter(
